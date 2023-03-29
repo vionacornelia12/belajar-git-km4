@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./flex-box.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;600;800;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
     <header>
 		<div class="logo">
-			<h2>Portfolio</h1>
+			<h1>Portfolio</h1>
 		</div>
 		<nav>
 			<ul>
@@ -21,16 +23,142 @@
 			</ul>
 		</nav>
 	</header>
+
 	<main class="hero-banner">
-		<div class="hero-text">
-            <h1>Showcasing the Best of My Work</h1>
-            <a href="#" class="cta-button">View Portfolio</a>
+        <section id="hero">
+            <div class="hero-text">
+                <h1>Showcasing the Best of My Work</h1>
+                <a href="#" class="cta-button">View Portfolio</a>
+            </div>
+        </section>
+	</main>
+
+    <div class="aboutme">
+        <div id="title">
+            <h2>About Me</h2>
+            <span id="section_subtitle">My Introduction</span>
+        </div>
+        <section id="about">
+            <div id="intro">
+                <h1>Hi, I'm Viona Cornelia</h1>
+                <p>Front End Web Developer</p>
+                <p class="text">
+                    I'm Front End Developer with a strong passion for building
+                    web application with a great user experience. Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Totam magni
+                    hic!
+                </p>
+                <div id="btn">
+                    <button>DOWNLOAD CV</button>
+                </div>
+            </div>
+    
+            <div id="hero-img">
+                <img src="../image/profile1.png" alt="" width="300">
+            </div>
+        </section>
+    </div>
+
+    <div>
+        <div id="title">
+            <h2>My Services</h2>
+            <span id="section_subtitle">What i was doing</span>
         </div>
 
-        <div class="profile"></div>
-	</main>
-	<footer>
-		<!-- The footer of the website goes here -->
+        <section id="services">
+            <div class="card">
+                <img src="../image/rome.jpg" alt="rome" style="width:100%">
+                <div class="container">
+                  <h4><b>Front End Designer</b></h4> 
+                  <p>View more</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="../image/grand-canyon.jpg" alt="grand canyon" style="width:100%">
+                <div class="container">
+                  <h4><b>Backend System</b></h4> 
+                  <p>View more</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="../image/maldives.jpg" alt="maldives" style="width:100%">
+                <div class="container">
+                  <h4><b>Digital Production</b></h4> 
+                  <p>View more</p> 
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div>
+        <div id="title">
+            <h2>Contact Me</h2>
+            <span id="section_subtitle">I am waiting for you</span>
+        </div>
+
+        <section id="contact">
+            <div class="contactme">
+                <div class="container1">
+                    <div class="contact-box">
+                        <div class="left">
+                            <img src="../image/maps.jpg" alt="maps" height="800px">
+                        </div>
+                        <div class="right">
+                            <h2>Get in Touch</h2>
+                            <input type="text" class="field" placeholder="Your Name">
+                            <input type="text" class="field" placeholder="Your Email">
+                            <input type="text" class="field" placeholder="Phone">
+                            <textarea placeholder="Message" class="field"></textarea>
+                            <button class="btn">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+    </div>
+
+	<footer class="footer">
+		<div class="container2">
+            <div class="row">
+              <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">our services</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">affiliate program</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">shipping</a></li>
+                  <li><a href="#">returns</a></li>
+                  <li><a href="#">order status</a></li>
+                  <li><a href="#">payment options</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                  <li><a href="#">watch</a></li>
+                  <li><a href="#">bag</a></li>
+                  <li><a href="#">shoes</a></li>
+                  <li><a href="#">dress</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
 	</footer>
 </body>
 </html>
