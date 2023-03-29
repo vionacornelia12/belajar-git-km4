@@ -51,7 +51,7 @@ body {
 
 header {
     height: 60px;
-	background-color: #b91c1c;
+	background-color: #ce231c;
 	color: #fff;
 	display: flex;
 	justify-content: space-between;
@@ -75,7 +75,7 @@ nav ul {
 
 nav ul li {
 	margin-right: 20px;
-    padding: 20px;
+    padding: 20px 32px;
 }
 
 nav ul li a {
@@ -83,7 +83,11 @@ nav ul li a {
 	text-decoration: none;
 }
 
-nav a:hover {
+nav a {
 	color: #fff;
-	text-decoration: underline;
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	background-color: #b91c1c;
 }
